@@ -1,6 +1,7 @@
 import pandas as pd
-from ease import EASE
-from utils import Utils
+
+from scripts.ease import EASE
+from scripts.utils import Utils
 
 
 class Recommender:

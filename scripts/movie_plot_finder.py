@@ -1,6 +1,6 @@
 import csv
 
-from utils import Utils
+from scripts.utils import Utils
 
 
 class MoviePlotFinder:
