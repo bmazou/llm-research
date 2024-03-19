@@ -1,16 +1,5 @@
 class Utils:
     @staticmethod
-    def split_llm_answer(text):
-        movie_part, general_part = text.split('---')
-        movie_part = movie_part.strip()
-        general_part = general_part.strip()
-
-        movie_part = movie_part.split(';;;')
-
-        movie_ratings = [(movie.rsplit(': ', 1)[0], float(movie.rsplit(': ', 1)[1])) for movie in movie_part]
-        return movie_ratings, general_part
-
-    @staticmethod
     def edit_distance(s1, s2):
         if len(s1) > len(s2):
             s1, s2 = s2, s1

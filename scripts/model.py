@@ -38,10 +38,25 @@ The Social Network: 5;;;Steve Jobs: 5;;;Bohemian Rhapsody: 4;;;Marie Antoinette:
     @staticmethod
     def get_plot_fitness_prompt(user_preferences, movie_plot):
         return f"""
-    <s>[INST] You are given a list of person's movie preference and a plot of a movie. Rate on a scale from 1 to 5 how well the preferences fit the plot. Asnwer only with the single number and an explanation. Seperate the number and the explanation with "---"
+    <s>[INST] You are given a list of person's movie preference and a plot of a movie. Rate on a scale from 1 to 5 how well the preferences fit the plot. Asnwer only with the single number and an explanation. Seperate the number and the explanation with "---", so the format of the answer is "<ratings_number> --- <explanation>."
     User preferences: "{user_preferences}".
     {movie_plot}. [/INST]
     """
+    
+    @staticmethod   
+    def split_llm_answer(text):
+        movie_part, general_part = text.split('---')
+        movie_part = movie_part.strip()
+        
+        # if general_part contains <EMPTY> then return None
+        general_part = general_part.strip() if not "<EMPTY>" in general_part else None
+        if "<EMPTY>" in movie_part:
+            return None, general_part
+
+        movie_part = movie_part.split(';;;')
+        movie_ratings = [(movie.rsplit(': ', 1)[0], float(movie.rsplit(': ', 1)[1])) for movie in movie_part]
+
+        return movie_ratings, general_part
 
     def wrap_text(self, text, width=90):
         lines = text.split('\n')
@@ -71,6 +86,6 @@ The Social Network: 5;;;Steve Jobs: 5;;;Bohemian Rhapsody: 4;;;Marie Antoinette:
                                        do_sample=True)
         text = self.tokenizer.batch_decode(outputs)[0]
         wrapped_text = self.wrap_text(text)
-        self.print_instruction_answer(wrapped_text)
+        # self.print_instruction_answer(wrapped_text)
         return self.get_answer(text)
     
