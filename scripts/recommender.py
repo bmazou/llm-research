@@ -5,7 +5,7 @@ from scripts.utils import Utils
 
 
 class Recommender:
-    def __init__(self, ratings_path, movies_path):
+    def __init__(self, ratings_path="data/ratings.csv", movies_path="data/movies.csv"):
         self.ease = EASE()
         self.ratings = pd.read_csv(ratings_path)
         self.movies = pd.read_csv(movies_path)

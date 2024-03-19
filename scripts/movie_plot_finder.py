@@ -4,7 +4,7 @@ from scripts.utils import Utils
 
 
 class MoviePlotFinder:
-    def __init__(self, csv_file_path):
+    def __init__(self, csv_file_path="data/movie-plots.csv"):
         self.csv_file_path = csv_file_path
         self.movie_data = {}
         self.load_movie_data()
