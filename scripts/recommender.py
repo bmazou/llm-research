@@ -36,18 +36,25 @@ class Recommender:
             movie_id = get_movie_id(movies, movie)
             df = pd.concat([df, pd.DataFrame({'user_id': [user_id], 'item_id': [movie_id], 'rating': [rating]})])
 
-
         return df[['user_id', 'item_id', 'rating']]
 
 
     def merge_with_movie_names(self, predictions, movies):
-        # movie_names = pd.read_csv(path).drop('genres', axis=1)
         movie_names = movies.copy().drop('genres', axis=1)
         movie_names.columns = ['item_id', 'title']
         return predictions.merge(movie_names, on='item_id').sort_values('score', ascending=False)
+    
+    def predict_most_popular(self, k=10):
+        return self.ratings.groupby('movieId').size().sort_values(ascending=False).head(k).reset_index(name='score')
 
     def fit_and_predict(self, user_ratings, user_id=611, k=10):
-        df = self.get_df(self.ratings, self.movies, user_ratings, user_id)
-        self.ease.fit(df, implicit=False)
-        predictions = self.ease.predict(df, [user_id], df.item_id.unique(), k)
-        return self.merge_with_movie_names(predictions, self.movies)
+        no_user_ratings_provided = len(user_ratings) == 0
+        if no_user_ratings_provided:
+            predictions = self.predict_most_popular(k)
+            predictions.columns = ['item_id', 'score']
+        else:
+            df = self.get_df(self.ratings, self.movies, user_ratings, user_id)
+            self.ease.fit(df, implicit=False)
+            predictions = self.ease.predict(df, [user_id], df.item_id.unique(), k)
+        
+        return self.merge_with_movie_names(predictions, self.movies) 
