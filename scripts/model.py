@@ -1,12 +1,14 @@
 import textwrap
 
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 class Model:
-    def __init__(self, model_name="mistralai/Mistral-7B-Instruct-v0.2"):
-        self.model = AutoModelForCausalLM.from_pretrained(model_name)
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+    def __init__(self, model_name="mistralai/Mistral-7B-Instruct-v0.2", use_gpu=False):
+        self.model = AutoModelForCausalLM.from_pretrained(model_name) if not use_gpu else AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto").to("cuda")
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name) if not use_gpu else AutoTokenizer.from_pretrained(model_name, torch_dtype="auto")
+        self.use_gpu = use_gpu
 
 
     @staticmethod
@@ -78,14 +80,13 @@ The Social Network: 5;;;Steve Jobs: 5;;;Bohemian Rhapsody: 4;;;Marie Antoinette:
         print("-" * 100)
 
     def generate(self, input_text, reformat_input=False, max_length=1550, temp=0.1):
-        prompt = f"""<s>[INST] {input_text} [/INST]""" if reformat_input else input_text
-        inputs = self.tokenizer(prompt, return_tensors="pt", add_special_tokens=False)
-        outputs = self.model.generate(**inputs,
-                                       max_length=max_length,
-                                       temperature=temp,
-                                       do_sample=True)
-        text = self.tokenizer.batch_decode(outputs)[0]
-        wrapped_text = self.wrap_text(text)
-        # self.print_instruction_answer(wrapped_text)
-        return self.get_answer(text)
-    
+            prompt = f"""<s>[INST] {input_text} [/INST]""" if reformat_input else input_text
+            inputs = self.tokenizer(prompt, return_tensors="pt", add_special_tokens=False) if not self.use_gpu else self.tokenizer(prompt, return_tensors="pt", add_special_tokens=False).to("cuda")
+            outputs = self.model.generate(**inputs,
+                                        max_length=max_length,
+                                        temperature=temp,
+                                        do_sample=True)
+            text = self.tokenizer.batch_decode(outputs)[0]
+            # wrapped_text = self.wrap_text(text)
+            # self.print_instruction_answer(wrapped_text)
+            return self.get_answer(text)
