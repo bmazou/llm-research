@@ -1,6 +1,7 @@
 # https://github.com/Darel13712/ease_rec
 
-from multiprocessing import Pool, cpu_count
+import os
+import pickle
 
 import numpy as np
 import pandas as pd
@@ -12,18 +13,32 @@ class EASE:
     def __init__(self):
         self.user_enc = LabelEncoder()
         self.item_enc = LabelEncoder()
-
+        
     def _get_users_and_items(self, df):
         users = self.user_enc.fit_transform(df.loc[:, 'user_id'])
         items = self.item_enc.fit_transform(df.loc[:, 'item_id'])
         return users, items
+    
+    def save_model(self, filepath):
+        with open(filepath, 'wb') as f:
+            pickle.dump((self.user_enc, self.item_enc, self.B), f)
+    
+    def load_model(self, filepath):
+        with open(filepath, 'rb') as f:
+            self.user_enc, self.item_enc, self.B = pickle.load(f)
 
-    def fit(self, df, lambda_: float = 0.5, implicit=True):
+    def fit(self, df, lambda_: float = 0.5, implicit=False, model_path=None):
         """
-        df: pandas.DataFrame with columns user_id, item_id and (rating)
+        df: pandas.DataFrame with columns user_id, item_id, and (rating)
         lambda_: l2-regularization term
         implicit: if True, ratings are ignored and taken as 1, else normalized ratings are used
+        model_path: Path to save or load the model. If provided, will attempt to load the model; if not found, trains a new model.
         """
+        if model_path is not None and os.path.exists(model_path):
+            self.load_model(model_path)
+            print("Model loaded successfully.")
+            return
+        
         users, items = self._get_users_and_items(df)
         values = (
             np.ones(df.shape[0])
@@ -42,36 +57,43 @@ class EASE:
         B[diagIndices] = 0
 
         self.B = B
-        self.pred = X.dot(B)
 
-    def predict(self, train, users, items, k):
-        items = self.item_enc.transform(items)
-        dd = train.loc[train.user_id.isin(users)]
-        dd['ci'] = self.item_enc.transform(dd.item_id)
-        dd['cu'] = self.user_enc.transform(dd.user_id)
-        g = dd.groupby('cu')
+        if model_path is not None:
+            self.save_model(model_path)
+            print("Model trained and saved successfully.")
+    
+    def predict(self, new_user_ratings, k=10):
+        # Transform movie_id to the internal representation
+        movie_ids = [x[0] for x in new_user_ratings]
+        ratings = [x[1] for x in new_user_ratings]
+        try:
+            transformed_movie_ids = self.item_enc.transform(movie_ids)
+        except ValueError:
+            # Handles unknown movies by ignoring them
+            valid_indices = [i for i, movie_id in enumerate(movie_ids) if movie_id in self.item_enc.classes_]
+            transformed_movie_ids = self.item_enc.transform([movie_ids[i] for i in valid_indices])
+            ratings = [ratings[i] for i in valid_indices]
 
-        with Pool(cpu_count()) as p:
-            user_preds = p.starmap(
-                self.predict_for_user,
-                [(user, group, self.pred[user, :], items, k) for user, group in g],
-            )
-        df = pd.concat(user_preds)
-        df['item_id'] = self.item_enc.inverse_transform(df['item_id'])
-        df['user_id'] = self.user_enc.inverse_transform(df['user_id'])
-        return df
+        print(f'Ratings: {ratings}')
+        
+        # Create a user vector with ratings for the movies they've rated
+        user_vector = np.zeros(self.B.shape[0])
+        user_vector[transformed_movie_ids] = ratings
 
-    @staticmethod
-    def predict_for_user(user, group, pred, items, k):
-        watched = set(group['ci'])
-        candidates = [item for item in items if item not in watched]
-        pred = np.take(pred, candidates)
-        res = np.argpartition(pred, -k)[-k:]
-        r = pd.DataFrame(
-            {
-                "user_id": [user] * len(res),
-                "item_id": np.take(candidates, res),
-                "score": np.take(pred, res),
-            }
-        ).sort_values('score', ascending=False)
-        return r
+        scores = user_vector.dot(self.B)          # Compute the score for each item
+
+        scores[transformed_movie_ids] = -np.inf   # Remove items user has already rated
+
+        # Get the top k items
+        recommended_item_indices = np.argpartition(scores, -k)[-k:]
+        recommended_scores = scores[recommended_item_indices]
+        
+        # Transform item indices back to original movie IDs
+        recommended_movie_ids = self.item_enc.inverse_transform(recommended_item_indices)
+
+        recommendations = pd.DataFrame({
+            'item_id': recommended_movie_ids,
+            'score': recommended_scores
+        }).sort_values(by='score', ascending=False).reset_index(drop=True)
+        
+        return recommendations
