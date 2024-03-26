@@ -47,16 +47,26 @@ The Social Network: 5;;;Steve Jobs: 5;;;Bohemian Rhapsody: 4;;;Marie Antoinette:
     
     @staticmethod   
     def split_llm_answer(text):
-        movie_part, general_part = text.split('---')
-        movie_part = movie_part.strip()
+        # If movie_part is None, recommender will return generic recommendations
+        # If general_part is None, we will not compare the general preferences with plots of the movies, but only return the RS recommendations
+
+        try:
+            movie_part, general_part = text.split('---')
+        except ValueError:
+            return None, None
         
+        
+        movie_part = movie_part.strip()
         # if general_part contains <EMPTY> then return None
         general_part = general_part.strip() if not "<EMPTY>" in general_part else None
         if "<EMPTY>" in movie_part:
             return None, general_part
 
-        movie_part = movie_part.split(';;;')
-        movie_ratings = [(movie.rsplit(': ', 1)[0], float(movie.rsplit(': ', 1)[1])) for movie in movie_part]
+        try: 
+            movie_part = movie_part.split(';;;')
+            movie_ratings = [(movie.rsplit(': ', 1)[0], float(movie.rsplit(': ', 1)[1])) for movie in movie_part]
+        except ValueError:
+            return None, general_part
 
         return movie_ratings, general_part
 
