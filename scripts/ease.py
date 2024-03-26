@@ -13,16 +13,16 @@ class EASE:
     def __init__(self):
         self.user_enc = LabelEncoder()
         self.item_enc = LabelEncoder()
-        
+
     def _get_users_and_items(self, df):
         users = self.user_enc.fit_transform(df.loc[:, 'user_id'])
         items = self.item_enc.fit_transform(df.loc[:, 'item_id'])
         return users, items
-    
+
     def save_model(self, filepath):
         with open(filepath, 'wb') as f:
             pickle.dump((self.user_enc, self.item_enc, self.B), f)
-    
+
     def load_model(self, filepath):
         with open(filepath, 'rb') as f:
             self.user_enc, self.item_enc, self.B = pickle.load(f)
@@ -34,24 +34,33 @@ class EASE:
         implicit: if True, ratings are ignored and taken as 1, else normalized ratings are used
         model_path: Path to save or load the model. If provided, will attempt to load the model; if not found, trains a new model.
         """
+        print("Starting the fit process...")
         if model_path is not None and os.path.exists(model_path):
+            print("Loading the model")
             self.load_model(model_path)
             print("Model loaded successfully.")
             return
-        
+
+        print("Preparing users and items...")
         users, items = self._get_users_and_items(df)
+        print("Preparing values...")
         values = (
             np.ones(df.shape[0])
             if implicit
             else df['rating'].to_numpy() / df['rating'].max()
         )
 
+        print("Creating matrix X...")
+        print(f'Users: {users.shape}. Items: {items.shape}. Values: {values.shape}.')
         X = csr_matrix((values, (users, items)))
-        self.X = X
+        print(f'X shape: {X.shape}.')
 
+        print("Computing matrix G...")
         G = X.T.dot(X).toarray()
+        print("Adding lambda")
         diagIndices = np.diag_indices(G.shape[0])
         G[diagIndices] += lambda_
+        print("Inverting matrix G...")
         P = np.linalg.inv(G)
         B = P / (-np.diag(P))
         B[diagIndices] = 0
@@ -61,7 +70,7 @@ class EASE:
         if model_path is not None:
             self.save_model(model_path)
             print("Model trained and saved successfully.")
-    
+
     def predict(self, new_user_ratings, k=10):
         # Transform movie_id to the internal representation
         movie_ids = [x[0] for x in new_user_ratings]
@@ -74,8 +83,7 @@ class EASE:
             transformed_movie_ids = self.item_enc.transform([movie_ids[i] for i in valid_indices])
             ratings = [ratings[i] for i in valid_indices]
 
-        print(f'Ratings: {ratings}')
-        
+
         # Create a user vector with ratings for the movies they've rated
         user_vector = np.zeros(self.B.shape[0])
         user_vector[transformed_movie_ids] = ratings
@@ -87,7 +95,7 @@ class EASE:
         # Get the top k items
         recommended_item_indices = np.argpartition(scores, -k)[-k:]
         recommended_scores = scores[recommended_item_indices]
-        
+
         # Transform item indices back to original movie IDs
         recommended_movie_ids = self.item_enc.inverse_transform(recommended_item_indices)
 
@@ -95,5 +103,5 @@ class EASE:
             'item_id': recommended_movie_ids,
             'score': recommended_scores
         }).sort_values(by='score', ascending=False).reset_index(drop=True)
-        
+
         return recommendations
