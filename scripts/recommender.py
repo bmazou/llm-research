@@ -1,3 +1,4 @@
+import Levenshtein
 import pandas as pd
 
 from scripts.ease import EASE
@@ -24,7 +25,7 @@ class Recommender:
         best_match = None
         for i, row in movies.iterrows():
             potential_name = row['title'][:-7]
-            distance = Utils.edit_distance(movie_name, potential_name)
+            distance = Levenshtein.distance(movie_name.lower(), potential_name.lower())
             if distance < best_distance:
                 best_distance = distance
                 best_match = row['item_id']

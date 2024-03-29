@@ -1,6 +1,6 @@
 import csv
 
-from scripts.utils import Utils
+import Levenshtein
 
 
 class MoviePlotFinder:
@@ -16,18 +16,23 @@ class MoviePlotFinder:
                 title = row['Title']
                 self.movie_data[title] = row['Plot']
 
-    def find_plot(self, movie_title, restructure_output=True):
-        # To do if min_distance > threshold  (3-6?), return None
+    def find_plot(self, movie_title, restructure_output=True, min_distance_threshold=3):
         min_distance = float('inf')
-        closest_title = None
+        nearest_title = None
         for title in self.movie_data.keys():
-            dist = Utils.edit_distance(movie_title.lower(), title.lower())
+            dist = Levenshtein.distance(movie_title.lower(), title.lower())
+
+            found_perfect_match = dist == 0
+            if found_perfect_match: 
+                nearest_title = title
+                break
+            
             if dist < min_distance:
                 min_distance = dist
-                closest_title = title
-        if closest_title:
-            plot = self.movie_data[closest_title]
-            if restructure_output: return f'Plot of "{movie_title}":\n{plot}'
-            else: return plot
-        else:
+                nearest_title = title
+        
+        if min_distance > min_distance_threshold:
             return None
+        
+        plot = self.movie_data[nearest_title]
+        return f'Plot of "{nearest_title}": {plot}' if restructure_output else plot
