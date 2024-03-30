@@ -1,38 +1,21 @@
-import csv
-
-import Levenshtein
+import pandas as pd
 
 
 class MoviePlotFinder:
-    def __init__(self, csv_file_path="data/movie-plots.csv"):
-        self.csv_file_path = csv_file_path
-        self.movie_data = {}
-        self.load_movie_data()
-
-    def load_movie_data(self):
-        with open(self.csv_file_path, 'r', encoding='utf-8') as file:
-            csv_reader = csv.DictReader(file)
-            for row in csv_reader:
-                title = row['Title']
-                self.movie_data[title] = row['Plot']
-
-    def find_plot(self, movie_title, restructure_output=True, min_distance_threshold=3):
-        min_distance = float('inf')
-        nearest_title = None
-        for title in self.movie_data.keys():
-            dist = Levenshtein.distance(movie_title.lower(), title.lower())
-
-            found_perfect_match = dist == 0
-            if found_perfect_match: 
-                nearest_title = title
-                break
-            
-            if dist < min_distance:
-                min_distance = dist
-                nearest_title = title
+    def __init__(self, csv_file_path="data/movie-plots-transformed.csv"):
+        self.plots = self.load_plots(csv_file_path)
         
-        if min_distance > min_distance_threshold:
+    def load_plots(self, csv_file_path):
+        plots = pd.read_csv(csv_file_path)
+        plots.set_index('item_id', inplace=True)
+        return plots
+
+    def find_plot(self, item_id, restructure_output=True):
+        if item_id not in self.plots.index:
+            print(f"Error: item_id {item_id} not found")
             return None
         
-        plot = self.movie_data[nearest_title]
-        return f'Plot of "{nearest_title}": {plot}' if restructure_output else plot
+        plot = self.plots.loc[item_id, 'Plot']
+        title = self.plots.loc[item_id, 'Title']
+        
+        return f'Plot of "{title}": {plot}' if restructure_output else plot
