@@ -34,14 +34,13 @@ class EASE:
         implicit: if True, ratings are ignored and taken as 1, else normalized ratings are used
         model_path: Path to save or load the model. If provided, will attempt to load the model; if not found, trains a new model.
         """
-        print("Starting the fit process...")
         if model_path is not None and os.path.exists(model_path):
             print("Loading the model")
             self.load_model(model_path)
             print("Model loaded successfully.")
             return
 
-        print("Preparing users and items...")
+        print(f"Starting the fit process with lambda={lambda_}...")
         users, items = self._get_users_and_items(df)
         print("Preparing values...")
         values = (
@@ -69,7 +68,7 @@ class EASE:
 
         if model_path is not None:
             self.save_model(model_path)
-            print("Model trained and saved successfully.")
+            print(f"Model saved successfully at {model_path}.")
 
     def predict(self, new_user_ratings, k=10):
         # Transform movie_id to the internal representation
