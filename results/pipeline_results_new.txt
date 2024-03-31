@@ -1,0 +1,354 @@
+Code: https://colab.research.google.com/drive/1NFohOrQpSQ2XYeCGfYZBDmPgk-MDyJIE?usp=sharing
+
+
+Prompt: While I appreciate a good superhero flick like 'The Dark Knight' for its gritty realism and complex characters, I tend to gravitate more towards thought-provoking dramas such as 'The Shawshank Redemption' and 'Schindler's List'. 'Forrest Gump' didn't quite resonate with me despite its widespread acclaim, perhaps because I prefer films with a darker edge. Settings with historical backdrops always pique my interest.
+LLM extraction: The Dark Knight: 5;;;The Shawshank Redemption: 5;;;Schindler's List: 5;;;Forrest Gump: 3 --- I prefer thought-provoking dramas with complex characters and a darker edge, as well as films set in historical backdrops.
+
+RECOMMENDATIONS:
+Braveheart (1995): ('Total score: 3.0', 'RS score: 0.75', 'LLM score: 4.0', 'The plot of "Braveheart" features complex historical backdrops, dark themes of betrayal and rebellion, and intricate character development, particularly with William Wallace. The film\'s exploration of the Scottish resistance against English rule aligns well with the user\'s preference for thought-provoking dramas with a historical setting.')
+
+Dances with Wolves (1990): ('Total score: 2.36', 'RS score: 0.59', 'LLM score: 4.0', 'The movie "Dances with Wolves" fits the user\'s preferences well. The film has complex characters, a darker edge, and explores historical backdrops. The plot involves thought-provoking themes such as cultural misunderstandings, personal growth, and the clash between civilizations. The movie also features a detailed portrayal of historical events and the lives of Native American tribes, making it an excellent fit for the user\'s stated preferences.')
+
+The Silence of the Lambs (1991): ('Total score: 2.31', 'RS score: 0.77', 'LLM score: 3.0', 'The movie "The Silence of the Lambs" does have a darker edge and complex characters, which fits the user\'s preference for thought-provoking dramas. However, the historical backdrop is not a significant aspect of the plot. The movie is primarily focused on the psychological thriller genre, with elements of crime and suspense. The user\'s preference for historical settings is not fully met in this movie.')
+
+Pulp Fiction (1994): ('Total score: 2.22', 'RS score: 0.74', 'LLM score: 3.0', 'The plot of "Pulp Fiction" has some elements that could appeal to the user\'s preferences, such as complex characters and a darker edge. However, it also contains a significant amount of violence and crime, which may not align perfectly with the user\'s stated preference for thought-provoking dramas. Additionally, while there are historical elements, they are not the primary focus of the plot.')
+
+The Usual Suspects (1995): ('Total score: 0.57', 'RS score: 0.57', 'LLM score: 1.0', 'The plot of "The Usual Suspects" does not fit the user\'s preferences well. The movie is primarily a crime thriller with elements of mystery and suspense, rather than a thought-provoking drama with complex characters and a darker edge. The historical backdrop is present but not the main focus.')
+
+-------------------------------------------------- 
+
+Prompt: As a fan of cerebral science fiction, films like 'Inception' and 'Blade Runner 2049' hold a special place in my heart with their mind-bending narratives and stunning visuals. I'm also drawn to unconventional love stories like 'Eternal Sunshine of the Spotless Mind', which challenges traditional romance tropes. However, 'Interstellar' felt overly ambitious and convoluted for my taste. I appreciate movies that delve into the complexities of human emotion.
+LLM extraction: Inception: 5;;;Blade Runner 2049: 5;;;Eternal Sunshine of the Spotless Mind: 5;;;Interstellar: 3 --- I'm a fan of cerebral science fiction with mind-bending narratives and stunning visuals, as well as unconventional love stories that challenge traditional romance tropes. I appreciate movies that delve into the complexities of human emotion.
+
+RECOMMENDATIONS:
+Donnie Darko (2001): ('Total score: 1.76', 'RS score: 0.44', 'LLM score: 4.0', 'The movie "Donnie Darko" fits the user\'s preferences well due to its cerebral science fiction narrative with mind-bending elements, stunning visuals, and unconventional love story that challenges traditional romance tropes. The movie also delves into the complexities of human emotion, particularly Donnie\'s struggles with mental health and his relationships with others.')
+
+Lost in Translation (2003): ('Total score: 1.56', 'RS score: 0.52', 'LLM score: 3.0', 'The movie "Lost in Translation" does have some elements of unconventional love story and complex human emotions, but the cerebral science fiction and mind-bending narratives mentioned in the user\'s preferences are not present in the plot. The movie is more focused on character development and exploration of human connections.')
+
+District 9 (2009): ('Total score: 1.47', 'RS score: 0.42', 'LLM score: 3.5', 'The movie "District 9" has elements of science fiction with a mind-bending narrative and stunning visuals, which aligns with the user\'s preference. However, the unconventional love story is not the main focus of the plot. Instead, the plot revolves around the complexities of human emotion, particularly Wikus\' transformation and his relationship with the aliens. The plot also touches upon social issues, which adds depth to the human emotions explored in the movie.')
+
+The Martian (2015): ('Total score: 1.41', 'RS score: 0.47', 'LLM score: 3.0', 'The movie "The Martian" has some elements of science fiction with its exploration of Mars and the use of technology, but the plot primarily focuses on survival and human perseverance rather than mind-bending narratives. The unconventional love story is also absent. However, the movie does delve into the complexities of human emotion, particularly Watney\'s feelings of isolation, anger, and determination.')
+
+The Prestige (2006): ('Total score: 1.17', 'RS score: 0.39', 'LLM score: 3.0', 'The movie "The Prestige" has some elements of science fiction with its focus on magic and technology, but the unconventional love story and mind-bending narrative are more complex and darker than what the user typically enjoys. The movie also lacks stunning visuals that the user mentioned as a preference. However, the exploration of human emotion and complex relationships between the characters could still appeal to the user.')
+
+-------------------------------------------------- 
+
+Prompt: I have a soft spot for classic horror films like 'The Shining' and 'Psycho', where the tension slowly builds, and the psychological elements leave a lasting impact. 'Hereditary' and 'The Witch' are recent favorites of mine due to their fresh take on the genre and expertly crafted atmosphere. However, I found 'Insidious' to rely too heavily on jump scares, lacking the depth I crave in horror. I enjoy movies that explore the darker aspects of the human psyche.
+LLM extraction: The Shining: 5;;;Psycho: 5;;;Hereditary: 5;;;The Witch: 5;;;Insidious: 3 --- I have a soft spot for classic horror films with a focus on tension and psychological elements that leave a lasting impact. I enjoy movies that explore the darker aspects of the human psyche.
+
+RECOMMENDATIONS:
+The Exorcist (1973): ('Total score: 2.55', 'RS score: 0.51', 'LLM score: 5.0', 'The plot of "The Exorcist" aligns well with the user\'s preferences for classic horror films with psychological elements and exploration of the darker aspects of the human psyche. The movie\'s focus on tension, the supernatural, and the impact on the human mind makes it a good fit for the user\'s stated preferences.')
+
+The Birds (1963): ('Total score: 2.25', 'RS score: 0.75', 'LLM score: 3.0', 'The plot of "The Birds" does contain elements of psychological tension and exploration of the human psyche, but the focus is more on the mysterious and unexplained bird attacks rather than the characters\' inner workings. The user\'s preference for classic horror films with a strong psychological component is partially met, but the plot leans more towards the supernatural or unexplained, which may not fully align with the user\'s stated preferences.')
+
+Rear Window (1954): ('Total score: 1.72', 'RS score: 0.43', 'LLM score: 4.0', 'The plot of "Rear Window" has a strong psychological element with the main character\'s obsession and suspicion towards his neighbor, which aligns with the user\'s preference for movies that explore the darker aspects of the human psyche. The movie also creates a tense atmosphere and leaves a lasting impact with the suspenseful storyline.')
+
+Vertigo (1958): ('Total score: 1.35', 'RS score: 0.45', 'LLM score: 3.0', 'The plot of "Vertigo" does contain some psychological elements and tension, but it does not have a clear focus on classic horror films or the darker aspects of the human psyche as mentioned in the user preferences. The plot is more focused on mystery and suspense, with some elements of romance and drama. The user may find some parts of the movie interesting, but overall it may not fully align with their stated preferences.')
+
+Jaws (1975): ('Total score: 0.72', 'RS score: 0.72', 'LLM score: 1.0', 'The plot of "Jaws" does not fit the user\'s preferences well. The movie primarily focuses on the action and suspense of a large shark attacking people, rather than the psychological elements and exploration of the human psyche that the user enjoys. While there are some tension-building scenes, the overall plot is more centered around the shark itself and the efforts to hunt and kill it, rather than the psychological impact on the characters or the darker aspects of the human psyche.')
+
+-------------------------------------------------- 
+
+Prompt: When it comes to action-packed blockbusters, I prefer those with substance like 'Mad Max: Fury Road' and 'The Matrix'. These films not only deliver jaw-dropping stunts but also offer thought-provoking themes beneath the surface. While 'Transformers' may provide visual spectacle, I find its lack of coherent storytelling disappointing. I appreciate movies that challenge the status quo and push the boundaries of the genre.
+LLM extraction: Mad Max: Fury Road: 5;;;The Matrix: 5;;;Transformers: 3 --- I prefer action-packed blockbusters with substance, delivering thought-provoking themes and jaw-dropping stunts. I appreciate movies that challenge the status quo and push the boundaries of the genre.
+
+RECOMMENDATIONS:
+Saving Private Ryan (1998): ('Total score: 2.35', 'RS score: 0.47', 'LLM score: 5.0', 'The movie "Saving Private Ryan" fits the user\'s preferences perfectly. It is an action-packed blockbuster with substance, delivering thought-provoking themes about the sacrifices of war and the value of human life. The movie challenges the status quo by showing the harsh realities of war and pushes the boundaries of the genre with its intense and graphic depiction of battle scenes. The movie also explores the emotional impact of war on individuals and their families, which resonates with the user\'s preference for movies that challenge the status quo and push the boundaries of the genre.')
+
+Total Recall (1990): ('Total score: 2.3', 'RS score: 0.46', 'LLM score: 5.0', 'The plot of "Total Recall" aligns well with the user\'s preferences. The movie features action-packed sequences, jaw-dropping stunts, and thought-provoking themes such as identity, reality, and power. It challenges the status quo by presenting a dystopian future where people can buy false memories and questions the morality of those in power. The plot pushes the boundaries of the sci-fi genre by incorporating elements of action, suspense, and philosophical exploration.')
+
+Terminator 2: Judgment Day (1991): ('Total score: 2.2', 'RS score: 0.44', 'LLM score: 5.0', 'The plot of "Terminator 2: Judgment Day" aligns well with the user\'s preferences. The movie features action-packed sequences, jaw-dropping stunts, and a thought-provoking theme about the future consequences of technology. It challenges the status quo by presenting a reprogrammed Terminator as a protector and pushes the boundaries of the genre by introducing a liquid metal Terminator. The plot also delves into the importance of human life and the potential dangers of artificial intelligence, which can resonate with someone who appreciates movies that challenge their thinking.')
+
+The Mummy (1999): ('Total score: 0.9', 'RS score: 0.3', 'LLM score: 3.0', 'The plot of "The Mummy" has some elements of action and substance, but it primarily focuses on ancient Egyptian mythology and adventure. While there are some thought-provoking themes, such as the consequences of disturbing the dead and the power of love and revenge, the movie does not significantly challenge the genre or push its boundaries in a way that would appeal to someone who prefers movies with "substance and jaw-dropping stunts." The plot also lacks the intensity and complexity of action-packed blockbusters that the user typically enjoys.')
+
+Star Wars: Episode I - The Phantom Menace (1999): ('Total score: 0.51', 'RS score: 0.51', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
+
+Prompt: Growing up, I was captivated by coming-of-age films such as 'The Breakfast Club' and 'Stand by Me', which beautifully capture the complexities of adolescence. 'Lady Bird' and 'Boyhood' are modern gems that continue to resonate with me due to their authenticity and relatable characters. However, 'Project X' felt superficial and failed to offer any meaningful insights into youth culture. I enjoy movies that explore the human experience with honesty and depth.
+LLM extraction: The Breakfast Club: 5;;;Stand by Me: 5;;;Lady Bird: 5;;;Boyhood: 5;;;Project X: 1 --- I'm drawn to coming-of-age films that capture the complexities of adolescence and explore the human experience with honesty and depth.
+
+RECOMMENDATIONS:
+Dead Poets Society (1989): ('Total score: 2.0', 'RS score: 0.4', 'LLM score: 5.0', 'The plot of "Dead Poets Society" aligns well with the user\'s preferences as it is a coming-of-age film that explores the complexities of adolescence and the human experience with honesty and depth. The movie focuses on the characters\' personal growth and self-discovery, which resonates with the user\'s stated interest in such themes.')
+
+Back to the Future (1985): ('Total score: 1.23', 'RS score: 0.41', 'LLM score: 3.0', "The coming-of-age themes are present in the movie, as Marty helps his parents meet and fall in love. However, the plot also includes elements of science fiction and adventure that may not fully align with the user's stated preference for coming-of-age films that capture the complexities of adolescence and explore the human experience with honesty and depth.")
+
+Ferris Bueller's Day Off (1986): ('Total score: 1.2', 'RS score: 0.4', 'LLM score: 3.0', 'The plot of "Ferris Bueller\'s Day Off" does have elements of coming-of-age and exploring the human experience, but it is more focused on the antics and adventures of Ferris rather than the complexities of adolescence. The film does capture the feeling of rebellion and living in the moment, which could resonate with someone drawn to coming-of-age films, but it doesn\'t delve deeply into the emotional depths and complexities that the user mentioned in their preference.')
+
+Sixteen Candles (1984): ('Total score: 1.11', 'RS score: 0.37', 'LLM score: 3.0', "The coming-of-age theme is present, but the plot also includes elements of romance, humor, and mishaps that may not fully capture the complexities of adolescence as the user described. The exploration of the human experience is more focused on Sam's specific situation rather than a broader look at adolescence.")
+
+The Princess Bride (1987): ('Total score: 0.54', 'RS score: 0.54', 'LLM score: 1.0', 'The plot of "The Princess Bride" does not directly fit the user\'s preference for coming-of-age films that capture the complexities of adolescence and explore the human experience with honesty and depth. The film does contain elements of romance and adventure, but the primary focus is not on the coming-of-age or exploration of adolescent complexities. Instead, it is a swashbuckling adventure story with elements of comedy and romance.')
+
+-------------------------------------------------- 
+
+Prompt: As a cinephile, I have a deep appreciation for foreign films, particularly those from the French New Wave era like 'Breathless' and 'The 400 Blows'. Their innovative storytelling techniques and artistic flair never fail to inspire me. While I enjoy Hollywood classics like 'Casablanca', I often find them lacking the boldness and experimentation of their international counterparts. I'm drawn to movies that challenge conventions and offer a fresh perspective on storytelling.
+LLM extraction: <EMPTY> --- I have a deep appreciation for foreign films, particularly those from the French New Wave era like 'Breathless' and 'The 400 Blows'. I'm drawn to movies that challenge conventions and offer a fresh perspective on storytelling.
+
+RECOMMENDATIONS:
+Schindler's List (1993): ('Total score: 72143.0', 'RS score: 72143', 'LLM score: 1.0', 'The user\'s preference for foreign films, particularly those from the French New Wave era, does not directly fit the plot of "Schindler\'s List," which is a historical drama about the Holocaust set in Poland during World War II. The movie does not challenge conventions or offer a fresh perspective on storytelling in the same way that French New Wave films do. Instead, it tells a factual story based on historical events. However, the user\'s appreciation for films that offer unique perspectives and challenge conventions could still be fulfilled by the unconventional ways in which Schindler saves lives and navigates the Nazi regime. The movie\'s exploration of morality, power, and survival in the face of unimaginable horrors could also be seen as offering a fresh perspective on storytelling. Ultimately, while the user\'s preferences may not align perfectly with the plot, there are still elements of the movie that could resonate with their interests.')
+
+Star Wars: Episode VI - Return of the Jedi (1983): ('Total score: 66516', 'RS score: 66516', 'LLM score: 1', 'ERROR: Plot not found.')
+
+American Beauty (1999): ('Total score: 61367.0', 'RS score: 61367', 'LLM score: 1.0', 'The user\'s preference for foreign films, particularly those from the French New Wave era, does not align well with the plot of "American Beauty," which is a domestic drama set in the United States. The movie\'s plot does not challenge conventions or offer a fresh perspective on storytelling in a way that directly relates to the user\'s stated preferences.')
+
+Shrek (2001): ('Total score: 47430.0', 'RS score: 47430', 'LLM score: 1.0', 'The user\'s preference for foreign films, particularly those from the French New Wave era, does not align with the plot of "Shrek," which is an animated fairytale movie. The user might find the story unconventional, but it does not offer a fresh perspective on storytelling in the same way that French New Wave films do.')
+
+The Terminator (1984): ('Total score: 42643.0', 'RS score: 42643', 'LLM score: 1.0', 'The user\'s preferences for foreign films and unconventional storytelling do not align with the plot of "The Terminator," which is a science fiction action film primarily produced in the United States. The film\'s plot does not offer a fresh perspective on storytelling that would appeal to the user\'s stated preferences.')
+
+-------------------------------------------------- 
+
+Prompt: When it comes to comedy, I prefer witty and satirical films like 'Dr. Strangelove' and 'Anchorman: The Legend of Ron Burgundy', where humor is used as a tool to explore deeper social issues. While 'The Hangover' had its moments, I found its reliance on crude humor to be tiresome. I appreciate movies that can make me laugh while also making me think.
+LLM extraction: Dr. Strangelove: 5;;;Anchorman: The Legend of Ron Burgundy: 5;;;The Hangover: 3 --- I prefer witty and satirical films where humor is used to explore deeper social issues. I appreciate movies that can make me laugh while also making me think.
+
+RECOMMENDATIONS:
+Elf (2003): ('Total score: 0.75', 'RS score: 0.25', 'LLM score: 3.0', 'The plot of "Elf" contains elements of humor and exploration of social issues, such as Buddy\'s struggle to fit in and find acceptance in the human world. However, the satire and witty humor may not be as prominent as the user\'s preference suggests. The movie also touches upon deeper themes like family, love, and redemption.')
+
+Dodgeball: A True Underdog Story (2004): ('Total score: 0.29', 'RS score: 0.29', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Old School (2003): ('Total score: 0.26', 'RS score: 0.26', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Zoolander (2001): ('Total score: 0.25', 'RS score: 0.25', 'LLM score: 1.0', 'The plot of "Zoolander" does not fit the user\'s movie preferences as it does not contain witty and satirical elements that explore deeper social issues, and the humor is not used to make the user think. Instead, the movie\'s humor is more slapstick and absurd, and the social issues it explores are not deeply examined.')
+
+Napoleon Dynamite (2004): ('Total score: 0.22', 'RS score: 0.22', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
+
+Prompt: I'm a sucker for heartwarming dramas that tug at the heartstrings, such as 'The Pursuit of Happyness' and 'Good Will Hunting'. These films not only showcase incredible performances but also deliver powerful messages about resilience and redemption. However, 'The Fault in Our Stars' felt overly melodramatic and lacked the authenticity I look for in a tearjerker. I enjoy movies that leave a lasting emotional impact.
+LLM extraction: The Pursuit of Happyness: 5;;;Good Will Hunting: 5;;;The Fault in Our Stars: 3 --- I'm a fan of heartwarming dramas that tug at the heartstrings and showcase incredible performances while delivering powerful messages about resilience and redemption. I enjoy movies that leave a lasting emotional impact.
+
+RECOMMENDATIONS:
+As Good as It Gets (1997): ('Total score: 3.6', 'RS score: 0.72', 'LLM score: 5.0', 'The movie "As Good as It Gets" aligns well with the user\'s preferences for heartwarming dramas that showcase incredible performances and deliver powerful messages about resilience and redemption. The plot explores the emotional journeys of several characters, including Melvin, Carol, and Simon, as they navigate complex relationships and personal growth. The movie leaves a lasting emotional impact by highlighting themes of love, forgiveness, and the power of human connection.')
+
+Titanic (1997): ('Total score: 2.84', 'RS score: 0.71', 'LLM score: 4.0', 'The movie "Titanic" fits the user\'s preferences well as it is a heartwarming drama that tugs at the heartstrings, showcases incredible performances, and delivers powerful messages about resilience and redemption. The movie leaves a lasting emotional impact, especially with its themes of love, sacrifice, and the human spirit. The movie also highlights the performances of its lead actors, Leonardo DiCaprio and Kate Winslet, which add to the emotional depth of the story.')
+
+The Shawshank Redemption (1994): ('Total score: 1.84', 'RS score: 0.46', 'LLM score: 4.0', 'The movie "The Shawshank Redemption" fits the user\'s preferences well as it is a heartwarming drama that showcases incredible performances and delivers powerful messages about resilience and redemption. The movie leaves a lasting emotional impact, particularly through the strong bond between the characters and their determination to overcome adversity. The themes of hope and redemption are central to the plot, making it a great fit for the user\'s stated preferences.')
+
+Saving Private Ryan (1998): ('Total score: 1.2', 'RS score: 0.4', 'LLM score: 3.0', 'The movie "Saving Private Ryan" does contain emotional moments and powerful messages about resilience and redemption, but the focus is mainly on war and the sacrifices made during it. The movie does not solely revolve around heartwarming dramas and incredible performances as the user\'s preference suggests. However, the emotional impact left by the movie can still be significant.')
+
+L.A. Confidential (1997): ('Total score: 1.05', 'RS score: 0.35', 'LLM score: 3.0', 'The plot of "L.A. Confidential" does contain elements of heartwarming drama and redemption, but the overall tone is more gritty and violent than the user\'s stated preference for movies that "tug at the heartstrings and showcase incredible performances while delivering powerful messages about resilience and redemption." The movie explores themes of corruption, revenge, and survival, which may not leave the lasting emotional impact the user is looking for. However, the complex characters and their journeys towards redemption and resilience could still resonate with the user to some extent.')
+
+-------------------------------------------------- 
+
+Prompt: As a fan of the crime genre, I gravitate towards gritty and realistic portrayals of the underworld like 'The Godfather' and 'Heat'. These films excel in their character development and attention to detail. While 'Ocean's Eleven' offers stylish heist sequences, I found its characters to be lacking depth and complexity. I appreciate movies that delve into the complexities of morality and power dynamics.
+LLM extraction: The Godfather: 5;;;Heat: 5;;;Ocean's Eleven: 3 --- I'm a fan of gritty and realistic portrayals of the underworld and appreciate films that excel in character development and attention to detail, exploring complexities of morality and power dynamics.
+
+RECOMMENDATIONS:
+Leaving Las Vegas (1995): ('Total score: 1.96', 'RS score: 0.49', 'LLM score: 4.0', 'The plot of "Leaving Las Vegas" fits the user\'s preferences well as it portrays a gritty and realistic underworld, with complex character development and power dynamics. The film explores the complexities of morality through the relationship between Ben and Sera, and the consequences of their actions. The attention to detail in the portrayal of Ben\'s alcoholism and Sera\'s occupation as a prostitute adds to the realism of the story.')
+
+Fargo (1996): ('Total score: 1.84', 'RS score: 0.46', 'LLM score: 4.0', 'The gritty and realistic portrayal of the underworld and complex power dynamics in "Fargo" align well with the user\'s preferences. The movie explores morality and the lengths people go to for money, which fits the user\'s interest in complexities of morality. Additionally, the attention to detail and character development in the film should appeal to the user.')
+
+The Godfather: Part II (1974): ('Total score: 1.29', 'RS score: 1.29', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Star Wars: Episode IV - A New Hope (1977): ('Total score: 0.63', 'RS score: 0.63', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Star Wars: Episode VI - Return of the Jedi (1983): ('Total score: 0.52', 'RS score: 0.52', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
+
+Prompt: When it comes to animated films, I prefer those that appeal to both children and adults alike, such as 'Up' and 'Inside Out', which tackle complex themes with nuance and heart. While 'Minions' may entertain younger audiences, I found its humor to be too simplistic for my taste. I enjoy movies that can entertain and enlighten audiences of all ages.
+LLM extraction: Up: 5;;;Inside Out: 5;;;Minions: 3 --- I prefer animated films that appeal to both children and adults, tackling complex themes with nuance and heart.
+
+RECOMMENDATIONS:
+Toy Story 3 (2010): ('Total score: 1.4', 'RS score: 0.28', 'LLM score: 5.0', 'The plot of "Toy Story 3" aligns well with the user\'s preference for animated films that appeal to both children and adults, tackling complex themes with nuance and heart. The movie explores themes of abandonment, friendship, and growing up, which can resonate with both children and adults. The characters have depth and development, and the story handles these themes with sensitivity and emotion.')
+
+WALL·E (2008): ('Total score: 0.48', 'RS score: 0.48', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Ratatouille (2007): ('Total score: 0.37', 'RS score: 0.37', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Avatar (2009): ('Total score: 0.29', 'RS score: 0.29', 'LLM score: 1.0', "The plot of Avatar does not fit the user's preferences well. The movie is primarily an action-adventure film with science fiction elements, and while it does have complex themes and some animation, it does not primarily appeal to both children and adults in the way the user's preference suggests. The Na'vi and their society are portrayed in a more simplistic and stereotypical manner, rather than with the nuance and heart the user prefers.")
+
+The Martian (2015): ('Total score: 0.27', 'RS score: 0.27', 'LLM score: 1.0', 'The plot of "The Martian" does not fit the user\'s preferences as it is not an animated film and does not tackle complex themes with nuance and heart in the way the user prefers. The story is primarily focused on survival and scientific problem-solving, rather than the emotional depth and complexity the user is looking for.')
+
+-------------------------------------------------- 
+
+Prompt: As a lover of period dramas, I'm drawn to films that transport me to another time and place, such as 'Pride and Prejudice' and 'Atonement'. These movies excel in their attention to historical detail and rich character development. While 'Marie Antoinette' offered visually stunning cinematography, I found its portrayal of history to be overly stylized and lacking substance. I appreciate movies that can immerse me in a different era with authenticity and depth.
+LLM extraction: Pride and Prejudice: 5;;;Atonement: 5;;;Marie Antoinette: 3 --- I'm drawn to period dramas that transport me to another time and place with attention to historical detail and rich character development.
+
+RECOMMENDATIONS:
+Pride & Prejudice (2005): ('Total score: 1.85', 'RS score: 0.37', 'LLM score: 5.0', 'The movie "Pride & Prejudice" fits perfectly with the user\'s preference for period dramas with historical detail and rich character development. The story is set in the late 18th century, and the movie transports the audience to that time and place with meticulous attention to historical detail. The characters are well-developed, and their relationships and motivations are explored in depth throughout the movie.')
+
+The Queen (2006): ('Total score: 1.04', 'RS score: 0.26', 'LLM score: 4.0', 'The plot of "The Queen" revolves around a significant historical event that transports the audience to another time and place, with attention given to the intricacies of the royal family and their response to the death of Princess Diana. The movie explores rich character development, particularly in the relationship between Queen Elizabeth II and Tony Blair, as they navigate the public\'s changing perception of the monarchy. The plot aligns well with the user\'s stated preference for period dramas with historical detail and character development.')
+
+Frida (2002): ('Total score: 0.8', 'RS score: 0.2', 'LLM score: 4.0', 'The movie "Frida" fits the user\'s preferences well as it is a period drama that transports the audience to another time and place, with rich historical detail and intricate character development, particularly in the portrayal of Frida Kahlo\'s life and relationships. The movie offers a deep dive into the personal and artistic struggles of the main character, making it an excellent match for the user\'s stated preferences.')
+
+The Devil Wears Prada (2006): ('Total score: 0.38', 'RS score: 0.19', 'LLM score: 2.0', 'The plot of "The Devil Wears Prada" does not seem to fit well with the user\'s preference for period dramas with historical detail and rich character development. The movie is more focused on fashion, career, and personal relationships, rather than a specific historical period. However, the movie does have some elements of character development and attention to detail, which is why the rating is not extremely low.')
+
+X-Men (2000): ('Total score: 0.2', 'RS score: 0.2', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
+
+Prompt: I have a deep admiration for documentaries that shed light on important social issues and provoke meaningful discussions, such as 'Bowling for Columbine' and '13th'. These films serve as powerful tools for education and advocacy. While 'Supersize Me' was eye-opening in its critique of fast food culture, I found its approach to be too sensationalistic at times. I appreciate documentaries that are informative, thought-provoking, and grounded in research.
+LLM extraction: Bowling for Columbine: 5;;;13th: 5;;;Supersize Me: 3 --- I have a deep admiration for documentaries that shed light on important social issues, provoke meaningful discussions, and are grounded in research.
+
+RECOMMENDATIONS:
+Fahrenheit 9/11 (2004): ('Total score: 0.97', 'RS score: 0.97', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Roger & Me (1989): ('Total score: 0.36', 'RS score: 0.36', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Adaptation (2002): ('Total score: 0.27', 'RS score: 0.27', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Monty Python's The Meaning of Life (1983): ('Total score: 0.27', 'RS score: 0.27', 'LLM score: 1.0', 'The plot of "Monty Python\'s The Meaning of Life" does not align well with the user\'s stated movie preferences. The user expressed a deep admiration for documentaries that shed light on important social issues, provoke meaningful discussions, and are grounded in research. The plot of "Monty Python\'s The Meaning of Life" is a collection of unrelated sketches that explore the meaning of life in a satirical and absurd manner. While some sketches touch upon social issues, they are presented in a comedic and nonsensical way, which may not provide the meaningful discussions and research the user is looking for.')
+
+Lost in Translation (2003): ('Total score: 0.26', 'RS score: 0.26', 'LLM score: 1.0', 'The plot of "Lost in Translation" does not fit the user\'s movie preferences as it is primarily a drama and romantic film, rather than a documentary focusing on important social issues and grounded in research.')
+
+-------------------------------------------------- 
+
+Prompt: I have a soft spot for romantic comedies that offer a fresh take on the genre, such as '500 Days of Summer' and 'Crazy, Stupid, Love'. These films balance humor with genuine emotion, creating relatable and memorable characters. While 'The Ugly Truth' may provide laughs, I found its portrayal of relationships to be shallow and formulaic. I appreciate romantic comedies that challenge conventions and offer authentic portrayals of love and connection.
+LLM extraction: 500 Days of Summer: 5;;;Crazy, Stupid, Love: 5;;;The Ugly Truth: 2 --- I appreciate romantic comedies that offer a fresh take on the genre, balance humor with genuine emotion, and create relatable and memorable characters. I prefer films that challenge conventions and offer authentic portrayals of love and connection.
+
+RECOMMENDATIONS:
+Lars and the Real Girl (2007): ('Total score: 0.81', 'RS score: 0.23', 'LLM score: 3.5', 'The movie "Lars and the Real Girl" offers a fresh take on the genre of romantic comedies by exploring the complexities of mental health and human connection. The film balances humor with genuine emotion and creates relatable and memorable characters, particularly Lars, who struggles with social interaction. However, the plot also challenges conventions by depicting Lars\' delusion as a manifestation of an underlying problem that needs to be addressed, rather than a simple obstacle to be overcome. The authentic portrayal of love and connection in the film resonates with the user\'s preference for films that offer authentic portrayals of these themes. However, the plot may not fully meet the user\'s expectation for a traditional romantic comedy as the main character\'s relationship with the doll is not a typical romantic relationship.')
+
+Easy A (2010): ('Total score: 0.63', 'RS score: 0.21', 'LLM score: 3.0', 'The movie "Easy A" offers a fresh take on the romantic comedy genre by tackling themes of lies, rumors, and the societal pressure to conform. It balances humor with genuine emotion and creates relatable and memorable characters, particularly Olive. However, the plot does not strictly adhere to the user\'s preference for authentic portrayals of love and connection, as the film\'s focus is more on the consequences of lies and the societal reaction to Olive\'s false reputation. The movie does challenge conventions, but it may not offer an entirely authentic portrayal of love and connection as the primary theme.')
+
+An Education (2009): ('Total score: 0.57', 'RS score: 0.19', 'LLM score: 3.0', "The movie offers a fresh take on the genre by exploring the theme of a young girl being manipulated by an older man under the guise of love and luxury. However, it does not perfectly balance humor with genuine emotion as the film has a more serious tone throughout. The movie creates relatable and memorable characters, but the authentic portrayal of love and connection is questionable due to the manipulative nature of David's character. The film challenges conventions by showing the consequences of a young girl's infatuation with an older man and the impact it has on her future.")
+
+Up in the Air (2009): ('Total score: 0.52', 'RS score: 0.26', 'LLM score: 2.0', 'The plot of "Up in the Air" does not fit well with the user\'s movie preferences as it primarily focuses on the themes of terminations, apathetic relationships, and detachment, which are not typical elements of romantic comedies. The film does offer some humor and emotional depth, but the balance between these elements may not be to the user\'s liking. Additionally, the film\'s unconventional take on love and relationships may not align with the user\'s preference for authentic portrayals.')
+
+Black Swan (2010): ('Total score: 0.19', 'RS score: 0.19', 'LLM score: 1.0', 'The plot of "Black Swan" does not fit the user\'s preferences as it primarily focuses on psychological thriller elements rather than a fresh take on romantic comedies, and it does not offer a balance of humor and genuine emotion. The film also contains intense and disturbing scenes that may not offer authentic portrayals of love and connection as preferred by the user.')
+
+-------------------------------------------------- 
+
+Prompt: I'm drawn to intense psychological thrillers like 'Fight Club' and Memento. 'American Psycho' left a lasting impression on me. However, I found 'The Sixth Sense' to be predictable and lacking depth.
+LLM extraction: Fight Club: 5;;;Memento: 5;;;American Psycho: 4;;;The Sixth Sense: 3 --- I'm drawn to intense psychological thrillers that challenge my perception and leave a lasting impression.
+
+RECOMMENDATIONS:
+American Beauty (1999): ('Total score: 3.84', 'RS score: 0.96', 'LLM score: 4.0', 'The movie "American Beauty" explores intense psychological themes such as mid-life crisis, infidelity, and the complexities of human relationships, which aligns with the user\'s preference for intense psychological thrillers. The plot challenges the user\'s perception of the characters and their motivations, leaving a lasting impression.')
+
+Being John Malkovich (1999): ('Total score: 2.04', 'RS score: 0.68', 'LLM score: 3.0', 'The plot of "Being John Malkovich" does contain some elements of psychological thriller, but it also includes elements of science fiction, dark comedy, and surrealism. The plot challenges perception, but it may not leave a lasting impression for someone who is primarily drawn to intense psychological thrillers. The plot\'s exploration of identity, obsession, and the human condition may still be intriguing, but the balance of genres may not fully align with the user\'s stated preference.')
+
+Traffic (2000): ('Total score: 2.04', 'RS score: 0.51', 'LLM score: 4.0', 'The movie "Traffic" explores the complex and intense psychological aspects of the war on drugs, corruption, and the impact on families. The plot challenges the perception of authority figures and leaves a lasting impression by showing the intricacies of the drug trade and its far-reaching consequences. The intense psychological thriller elements align well with the user\'s stated preference.')
+
+High Fidelity (2000): ('Total score: 1.95', 'RS score: 0.65', 'LLM score: 3.0', 'The plot of "High Fidelity" does have some elements of psychological introspection and challenges the protagonist\'s perception of relationships, but it is not primarily a psychological thriller. The movie also includes humor and music themes, which may not fully align with the user\'s stated preference for intense psychological thrillers.')
+
+Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000): ('Total score: 0.5', 'RS score: 0.5', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
+
+Prompt: I'm a huge fan of animated movies, especially those from Pixar like 'Toy Story' and 'Finding Nemo'. 'Shrek' is another favorite of mine. I'm not particularly fond of musicals, so 'The Lion King' isn't my cup of tea.
+LLM extraction: Toy Story: 5;;;Finding Nemo: 5;;;Shrek: 4;;;The Lion King: 3 --- I'm a huge fan of animated movies, especially those from Pixar. I enjoy films that transport me to imaginative worlds and have great storytelling. I'm not a fan of musicals.
+
+RECOMMENDATIONS:
+Monsters, Inc. (2001): ('Total score: 5.25', 'RS score: 1.05', 'LLM score: 5.0', 'The plot of "Monsters, Inc." aligns well with the user\'s preferences as it is an animated movie from Pixar, and it transports the audience to an imaginative world. The storytelling is also great, with engaging characters and a captivating plot. The musical elements are minimal, making it suitable for someone who is not a fan of musicals.')
+
+Beauty and the Beast (1991): ('Total score: 3.2', 'RS score: 0.8', 'LLM score: 4.0', 'The plot of "Beauty and the Beast" aligns well with the user\'s preferences. The movie is an animated film from a renowned studio (Disney), and it transports the audience to an imaginative world filled with enchantment and magical elements. The storytelling is also exceptional, as it explores themes of love, self-discovery, and transformation. Although there are no musical numbers in the movie, the user\'s stated dislike for musicals does not significantly impact the overall fit.')
+
+The Incredibles (2004): ('Total score: 2.75', 'RS score: 0.55', 'LLM score: 5.0', 'The plot of "The Incredibles" aligns well with the user\'s preferences as it is an animated movie from Pixar, features imaginative worlds, and has a great storyline. Additionally, it does not contain musical elements.')
+
+Aladdin (1992): ('Total score: 2.22', 'RS score: 0.74', 'LLM score: 3.0', 'The plot of "Aladdin" features an imaginative world, transporting the audience to Agrabah, and has great storytelling with elements of adventure, romance, and magic. However, the movie contains musical numbers, which the user stated they are not a fan of. Therefore, the user\'s preferences do not perfectly fit the plot.')
+
+Pirates of the Caribbean: The Curse of the Black Pearl (2003): ('Total score: 1.12', 'RS score: 0.56', 'LLM score: 2.0', "The movie does not seem to fit the user's preferences as it is not an animated film from Pixar, and it contains elements of action and adventure genres, rather than being purely imaginative. Additionally, there are no musical numbers in the plot.")
+
+-------------------------------------------------- 
+
+Prompt: Romantic comedies are my guilty pleasure, especially ones with quirky characters like '500 Days of Summer' and 'Eternal Sunshine of the Spotless Mind'. 'The Proposal' was entertaining but forgettable. I'm not a fan of tearjerkers like 'The Fault in Our Stars'.
+LLM extraction: 500 Days of Summer: 5;;;Eternal Sunshine of the Spotless Mind: 5;;;The Proposal: 4;;;The Fault in Our Stars: 2 --- I enjoy romantic comedies with quirky characters. I'm not a fan of tearjerkers.
+
+RECOMMENDATIONS:
+Lost in Translation (2003): ('Total score: 1.38', 'RS score: 0.46', 'LLM score: 3.0', 'The movie has some elements of romance and quirky characters, but the plot also includes some tearjerker moments, which the user stated they are not a fan of. The overall rating is based on the dominant theme of the movie being a romantic comedy with some quirky elements, despite the presence of tearjerker moments.')
+
+Sideways (2004): ('Total score: 0.58', 'RS score: 0.29', 'LLM score: 2.0', 'The plot of "Sideways" does not fit the user\'s movie preferences well as it contains elements of drama and relationships beyond the romantic comedy genre, and there are some tearful moments. However, the quirky characters and the focus on wine might appeal to some extent.')
+
+Donnie Darko (2001): ('Total score: 0.36', 'RS score: 0.36', 'LLM score: 1.0', 'The user\'s preference for romantic comedies with quirky characters and dislike for tearjerkers does not fit the plot of "Donnie Darko" as it is primarily a science fiction and psychological thriller film with elements of drama and dark comedy. The plot revolves around a troubled teenager\'s encounters with time travel, hallucinations, and a mysterious figure, rather than a romantic story with quirky characters.')
+
+Memento (2000): ('Total score: 0.28', 'RS score: 0.28', 'LLM score: 1.0', 'The plot of "Memento" does not fit the user\'s preferences for romantic comedies with quirky characters. Instead, it is a psychological thriller with complex and dark themes. The user\'s stated dislike for tearjerkers may not apply to this film as it is not primarily an emotional drama.')
+
+Adaptation (2002): ('Total score: 0.27', 'RS score: 0.27', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
+
+Prompt: I enjoy a good mystery, particularly detective films like 'Sherlock Holmes' and 'Murder on the Orient Express'. 'Gone Girl' kept me on the edge of my seat. However, 'The Da Vinci Code' felt too convoluted for my liking.
+LLM extraction: Sherlock Holmes: 5;;;Murder on the Orient Express: 5;;;Gone Girl: 5;;;The Da Vinci Code: 3 --- I enjoy a good mystery, particularly detective films and stories that keep me engaged and on the edge of my seat.
+
+RECOMMENDATIONS:
+The Silence of the Lambs (1991): ('Total score: 1.05', 'RS score: 0.21', 'LLM score: 5.0', 'The plot of "The Silence of the Lambs" fits the user\'s preferences perfectly. The movie is a mystery with a detective storyline that keeps the audience engaged and on the edge of their seats. The plot involves a serial killer, Buffalo Bill, whose identity and motives are a mystery that the protagonist, Clarice Starling, must uncover. The user\'s stated preference for detective films and stories that keep them engaged makes this an ideal match. Additionally, the plot includes elements of psychological profiling and mind games between Starling and Lecter, which further adds to the mystery and intrigue.')
+
+Inception (2010): ('Total score: 0.8', 'RS score: 0.2', 'LLM score: 4.0', 'The plot of "Inception" aligns well with the user\'s preference for mystery and detective films, as it involves a complex and intricate plot with multiple layers and a focus on infiltrating the subconscious of characters to extract or plant information. The user\'s enjoyment of being engaged and on the edge of their seat is also catered to, as the plot includes numerous challenges and obstacles for the characters to overcome. Additionally, the user\'s interest in detective stories is further satisfied by the unraveling of Cobb\'s past and the revelation of Mal\'s actions.')
+
+The Imitation Game (2014): ('Total score: 0.69', 'RS score: 0.23', 'LLM score: 3.0', 'The plot of "The Imitation Game" includes elements of mystery and a detective-like investigation, but the focus is more on the historical events and personal story of Alan Turing. The plot keeps the reader engaged, but the preference for detective films and stories that keep one on the edge of their seat may not be fully met. The plot does, however, offer some twists and turns, particularly with the revelation of Cairncross being a Soviet spy and Turing\'s homosexuality.')
+
+Arachnophobia (1990): ('Total score: 0.66', 'RS score: 0.22', 'LLM score: 3.0', 'The mystery and the element of danger in the plot may appeal to the user\'s preference for detective films and keeping them engaged. However, the plot is primarily focused on the horror and action aspects of the spider infestation, which may not fully meet the user\'s expectation for a "good mystery." Additionally, the user\'s stated preference for detective films might suggest a preference for more complex plots and character development, which "Arachnophobia" may not fully deliver.')
+
+Gone with the Wind (1939): ('Total score: 0.21', 'RS score: 0.21', 'LLM score: 1.0', 'The user\'s preference for mystery and detective films is not directly related to the plot of "Gone with the Wind," which is primarily a historical romance and drama. The plot does contain some elements of mystery, such as Scarlett\'s attempts to win Ashley\'s love and the identity of the father of her child, but these are secondary to the overall story. The user may still find the plot engaging and on the edge of their seat due to the historical context and the emotional intensity of the characters\' relationships, but the mystery element is not the main reason for the fit.')
+
+-------------------------------------------------- 
+
+Prompt: I have a soft spot for coming-of-age stories, especially ones with a nostalgic feel like 'Stand by Me' and 'The Breakfast Club'. 'Lady Bird' resonated with me deeply. I find superhero movies to be formulaic, so 'The Avengers' didn't impress me much.
+LLM extraction: Stand by Me: 5;;;The Breakfast Club: 5;;;Lady Bird: 5;;;The Avengers: 3 --- I have a soft spot for coming-of-age stories with a nostalgic feel that resonate with me deeply. I find superhero movies to be formulaic.
+
+RECOMMENDATIONS:
+Ferris Bueller's Day Off (1986): ('Total score: 1.48', 'RS score: 0.37', 'LLM score: 4.0', "The coming-of-age story with a nostalgic feel resonates well with the plot as it follows Ferris's adventures and experiences during his last day of high school. The plot also touches upon themes of rebellion and growing up, which the user mentioned they enjoy. However, the superhero element is absent, making the movie a better fit for the user's preferences.")
+
+Dead Poets Society (1989): ('Total score: 1.44', 'RS score: 0.36', 'LLM score: 4.0', "The coming-of-age theme and the nostalgic feel of the story resonate deeply with the user's preference for such stories. The unconventional teaching methods and encouragement of individuality align with the user's appreciation for unique stories. However, the superhero element is not present, making the fit near perfect but not a perfect match.")
+
+Back to the Future (1985): ('Total score: 1.17', 'RS score: 0.39', 'LLM score: 3.0', 'The plot of "Back to the Future" does contain elements of a coming-of-age story, as Marty helps his parents meet and fall in love, leading to a better future for him. However, the nostalgic feel and deep resonance the user mentioned in their preferences are not the primary focus of the movie. Additionally, the plot includes elements of science fiction and adventure, which the user stated they find formulaic in superhero movies. While "Back to the Future" is not a superhero movie per se, it does involve time travel and a high-stakes adventure to save one\'s own existence. Therefore, the rating is a 3, as the plot only partially fits the user\'s stated preferences.')
+
+Sixteen Candles (1984): ('Total score: 1.02', 'RS score: 0.34', 'LLM score: 3.0', 'The coming-of-age theme and the nostalgic feel of the story resonating with the protagonist\'s struggles to fit in and navigate relationships are present in "Sixteen Candles." However, the plot also includes elements of superhero movies, such as Jake\'s deal with Ted, that the user has stated they find formulaic. Therefore, the rating is a moderate 3.')
+
+The Princess Bride (1987): ('Total score: 0.55', 'RS score: 0.55', 'LLM score: 1.0', 'The plot of "The Princess Bride" does not fit the user\'s preferences well. The coming-of-age and nostalgic elements are present, but the story is primarily an adventure with superhero-like elements, which the user finds formulaic.')
+
+-------------------------------------------------- 
+
+Prompt: I'm a horror aficionado, especially when it comes to psychological horror like 'The Shining' and 'Hereditary'. 'Get Out' was a brilliant blend of horror and social commentary. However, I'm not a fan of slasher films like 'Friday the 13th'.
+LLM extraction: The Shining: 5;;;Hereditary: 5;;;Get Out: 5;;;Friday the 13th: 1 --- I'm a horror aficionado, especially psychological horror that explores the human psyche and provides thought-provoking commentary. I'm not a fan of slasher films.
+
+RECOMMENDATIONS:
+The Exorcist (1973): ('Total score: 1.85', 'RS score: 0.37', 'LLM score: 5.0', 'The plot of "The Exorcist" aligns well with the user\'s preference for psychological horror that explores the human psyche and provides thought-provoking commentary. The movie delves deep into the psychological and supernatural aspects of Regan\'s possession, making it a great fit for the user\'s taste. The absence of slasher elements further enhances the compatibility.')
+
+Psycho (1960): ('Total score: 1.14', 'RS score: 0.38', 'LLM score: 3.0', 'The plot of "Psycho" does contain elements of psychological horror, which aligns with the user\'s preference. However, the majority of the plot revolves around the crime and investigation, which includes suspense and thriller elements, making it not purely a psychological horror film. Additionally, there are scenes of violence and gore, which may not appeal to the user\'s stated preference of not being a fan of slasher films.')
+
+Poltergeist (1982): ('Total score: 0.35', 'RS score: 0.35', 'LLM score: 1.0', 'The plot of "Poltergeist" does not fit the user\'s preferences well. The movie contains elements of horror, but it is primarily focused on supernatural events and spectral invasions, which is closer to the slasher genre than psychological horror. The plot does not provide significant thought-provoking commentary on the human psyche.')
+
+Jaws (1975): ('Total score: 0.34', 'RS score: 0.34', 'LLM score: 1.0', 'The user\'s preference for psychological horror and exploration of the human psyche does not align well with the plot of "Jaws," which is primarily focused on a physical threat (a shark) rather than psychological themes. The user might find the film entertaining due to the tension and suspense, but it does not provide the thought-provoking commentary they prefer. Additionally, the presence of slasher elements, such as violent attacks and deaths, might not appeal to the user.')
+
+Full Metal Jacket (1987): ('Total score: 0.31', 'RS score: 0.31', 'LLM score: 1.0', 'The plot of "Full Metal Jacket" does not fit the user\'s preferences as it is primarily focused on war and military training, which are not psychological horror genres. The human psyche is explored through the character development of Pyle, but the overall plot is not thought-provoking in the way the user prefers. Additionally, there are elements of violence and action that align more with slasher films, which the user dislikes.')
+
+-------------------------------------------------- 
+
+Prompt: I'm a sucker for fast-paced action movies with intricate plots like 'The Bourne Identity' and 'Inception'. 'John Wick' had some impressive action sequences. However, 'Transformers' felt too over-the-top for my taste.
+LLM extraction: The Bourne Identity: 5;;;Inception: 5;;;John Wick: 5;;;Transformers: 3 --- I'm a fan of fast-paced action movies with intricate plots. I enjoy movies that keep me engaged with their complex storylines and impressive action sequences.
+
+RECOMMENDATIONS:
+The Bourne Supremacy (2004): ('Total score: 2.85', 'RS score: 0.57', 'LLM score: 5.0', 'The plot of "The Bourne Supremacy" aligns well with the user\'s preference for fast-paced action movies with intricate plots. The movie keeps the audience engaged with its complex storyline and impressive action sequences.')
+
+Minority Report (2002): ('Total score: 2.2', 'RS score: 0.55', 'LLM score: 4.0', "The fast-paced action sequences and intricate plot kept me engaged throughout the movie. The complex storyline involving time travel, ethical dilemmas, and the consequences of predicting crimes before they happen fit well with the user's preference for such movies.")
+
+The Bourne Ultimatum (2007): ('Total score: 1.35', 'RS score: 0.27', 'LLM score: 5.0', 'The plot of "The Bourne Ultimatum" aligns well with the user\'s preference for fast-paced action movies with intricate plots. The movie offers numerous action sequences and a complex storyline that keeps the audience engaged.')
+
+The Matrix Reloaded (2003): ('Total score: 1.32', 'RS score: 0.33', 'LLM score: 4.0', "The fast-paced action sequences and intricate plot with complex storylines align well with the user's preferences. The movie features numerous action sequences and a complex narrative that keeps the audience engaged. However, it's important to note that individual preferences may still vary, and some users might prefer a higher emphasis on action or a more straightforward plot.")
+
+About a Boy (2002): ('Total score: 0.56', 'RS score: 0.28', 'LLM score: 2.0', 'The plot of "About a Boy" does not seem to fit the user\'s preference for fast-paced action movies with intricate plots as the movie\'s genre is primarily comedy-drama and the plot revolves around relationships and character development rather than action sequences. However, the movie does have a complex storyline with several twists and turns that may keep the user engaged.')
+
+-------------------------------------------------- 
+
+Prompt: I have a penchant for fantasy epics, particularly those with rich world-building like 'The Lord of the Rings' and 'Harry Potter'. 'The Hobbit' trilogy was a bit of a letdown for me. I'm not into romantic dramas, so 'The Notebook' didn't appeal to me
+LLM extraction: The Lord of the Rings: 5;;;Harry Potter: 5;;;The Hobbit: 3 --- I'm a fan of fantasy epics with rich world-building and I'm not into romantic dramas.
+
+RECOMMENDATIONS:
+Watership Down (1978): ('Total score: 2.0', 'RS score: 0.4', 'LLM score: 5.0', 'The plot of "Watership Down" aligns well with the user\'s preference for fantasy epics with rich world-building, as it features a detailed mythology, gods, and a complex rabbit society. The plot does not contain any romantic dramas, making it a good fit for the user\'s stated preferences.')
+
+The Dark Crystal (1982): ('Total score: 1.6', 'RS score: 0.32', 'LLM score: 5.0', 'The plot of "The Dark Crystal" aligns perfectly with the user\'s preference for fantasy epics with rich world-building. The story features a magical crystal, two new races, and intricate lore surrounding the planet Thra and its inhabitants. The user\'s disinterest in romantic dramas is not directly addressed in the plot, so it does not impact the rating.')
+
+Heavy Metal (1981): ('Total score: 0.99', 'RS score: 0.33', 'LLM score: 3.0', "The story contains elements of fantasy and world-building which align with the user's preferences, but the presence of sexual content and the absence of romance dramas make it a closer fit. The influence of the Loc-Nar on various societies and planets adds to the rich world-building aspect.")
+
+Tron (1982): ('Total score: 0.72', 'RS score: 0.24', 'LLM score: 3.0', 'The plot of "Tron" has elements of fantasy and world-building with the concept of the Grid and the living entities of programs. However, the romantic drama aspect is minimal, making it a decent fit for the user\'s preferences.')
+
+Akira (1988): ('Total score: 0.25', 'RS score: 0.25', 'LLM score: 1.0', 'The user\'s preference for fantasy epics with rich world-building is not directly met in the plot of "Akira," as it is primarily focused on a post-apocalyptic, dystopian society and the development of psychic abilities. The romantic drama element is also absent.')
+
+-------------------------------------------------- 
+
+Prompt: I'm a fan of offbeat indie movies that challenge conventional storytelling, like 'Eternal Sunshine of the Spotless Mind' and 'Donnie Darko'. 'Napoleon Dynamite' remains a cult favorite of mine. However, I find mainstream romantic comedies to be predictable and formulaic.
+LLM extraction: Eternal Sunshine of the Spotless Mind: 5;;;Donnie Darko: 5;;;Napoleon Dynamite: 4 --- I'm a fan of offbeat indie movies that challenge conventional storytelling and offer unique perspectives. I find mainstream romantic comedies to be predictable and formulaic.
+
+RECOMMENDATIONS:
+Garden State (2004): ('Total score: 1.92', 'RS score: 0.48', 'LLM score: 4.0', 'The movie "Garden State" fits the user\'s preferences well as it offers a unique perspective through its unconventional storytelling and explores complex themes such as mental health, family dynamics, and self-discovery, which may appeal to someone who enjoys offbeat indie movies. The plot also challenges conventional romantic comedy tropes and offers a more nuanced portrayal of relationships.')
+
+Memento (2000): ('Total score: 1.84', 'RS score: 0.46', 'LLM score: 4.0', "The complex and unconventional storyline, the exploration of memory and identity, and the unique narrative structure align well with the user's preference for offbeat indie movies that challenge conventional storytelling. The plot offers a unique perspective on memory, identity, and the consequences of one's actions. However, it may not fully fit the user's preference as it does contain some elements of a thriller or mystery genre, which could be considered more mainstream than purely offbeat indie movies. Nonetheless, the overall unconventionality and depth of the story make it a strong fit for the user's stated preferences.")
+
+Lost in Translation (2003): ('Total score: 1.79', 'RS score: 0.51', 'LLM score: 3.5', 'The movie "Lost in Translation" does offer a unique perspective on relationships and the feeling of being lost or disconnected, which could appeal to someone who enjoys offbeat indie movies. However, it also has elements of romance and drama, which may not align perfectly with the user\'s stated preference for avoiding mainstream romantic comedies. The movie\'s unconventional storytelling and exploration of complex human emotions could still make it an engaging watch for the user.')
+
+Adaptation (2002): ('Total score: 0.53', 'RS score: 0.53', 'LLM score: 1', 'ERROR: Plot not found.')
+
+Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001): ('Total score: 0.49', 'RS score: 0.49', 'LLM score: 1', 'ERROR: Plot not found.')
+
+-------------------------------------------------- 
